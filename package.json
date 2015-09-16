@@ -1,0 +1,29 @@
+{
+  "name": "flexbox-interrop",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --project example && browserify -t browserify-css example/index.js -o example/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sccolbert/flexbox-interrop.git"
+  },
+  "author": "sccolbert@gmail.com",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/sccolbert/flexbox-interrop/issues"
+  },
+  "homepage": "https://github.com/sccolbert/flexbox-interrop#readme",
+  "dependencies": {
+    "phosphor-splitpanel": "^0.9.4",
+    "phosphor-widget": "^0.9.9"
+  },
+  "devDependencies": {
+    "browserify": "^11.1.0",
+    "browserify-css": "^0.7.1",
+    "typescript": "1.6.0-beta"
+  }
+}
