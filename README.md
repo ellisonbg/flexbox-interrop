@@ -9,7 +9,7 @@ flexbox to layout its children. One of these children is a Phosphor
 
 This example shows that these two methods of layout get along nicely.
 
-**Build Instructions**
+**Build Instructions:**
 ```bash
 git clone https://github.com/sccolbert/flexbox-interrop.git
 cd flexbox-interrop
